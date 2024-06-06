@@ -1,5 +1,3 @@
-"""Classes for SimGNN modules."""
-
 import torch
 
 class AttentionModule(torch.nn.Module):
