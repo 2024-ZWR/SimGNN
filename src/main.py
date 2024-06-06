@@ -1,5 +1,3 @@
-"""SimGNN runner."""
-
 from utils import tab_printer
 from simgnn import SimGNNTrainer
 from param_parser import parameter_parser
