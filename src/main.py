@@ -1,5 +1,5 @@
 from utils import tab_printer
-from model import SimGNNTrainer
+from model import Trainer
 from param_parser import parameter_parser
 
 def main():
@@ -9,7 +9,7 @@ def main():
     """
     args = parameter_parser()
     tab_printer(args)
-    trainer = SimGNNTrainer(args)
+    trainer = Trainer(args)
     if args.load_path:
         trainer.load()
     else:
