@@ -1,5 +1,3 @@
-"""SimGNN class and runner."""
-
 import glob
 import torch
 import random
@@ -10,10 +8,6 @@ from layers import AttentionModule, TenorNetworkModule
 from utils import process_pair, calculate_loss, calculate_normalized_ged
 
 class SimGNN(torch.nn.Module):
-    """
-    SimGNN: A Neural Network Approach to Fast Graph Similarity Computation
-    https://arxiv.org/abs/1808.05689
-    """
     def __init__(self, args, number_of_labels):
         """
         :param args: Arguments object.
