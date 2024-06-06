@@ -1,5 +1,3 @@
-"""Data processing utilities."""
-
 import json
 import math
 from texttable import Texttable
