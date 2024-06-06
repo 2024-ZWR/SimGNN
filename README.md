@@ -1,5 +1,5 @@
-### Requirements
-The codebase is implemented in Python 3.5.2. package versions used for development are just below.
+### 依赖库
+
 ```
 networkx          2.4
 tqdm              4.28.1
