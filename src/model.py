@@ -107,7 +107,7 @@ class SimGNN(torch.nn.Module):
         score = torch.sigmoid(self.scoring_layer(scores))
         return score
 
-class SimGNNTrainer(object):
+class Trainer(object):
     """
     SimGNN model trainer.
     """
